@@ -1,20 +1,14 @@
-# docschangelog README
+# Docs Changelog
 
-This is the README for your extension "docschangelog". After writing up a brief description, we recommend including the following sections.
+This VSCode extension is for users for the Microsoft Docs platform.  It simplifies the creation of a changelog of new and updated articles based on Git history
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+To generate the changelog, open the command window (Ctrl + Shift + P) and enter "Docs: Generate Changelog".  This will automatically generate the changelog.md file in the docs path configured.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Requires Git to be installed and available in your default path.
 
 ## Extension Settings
 
@@ -24,42 +18,26 @@ For example:
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+* `docLog.repoTitle`: Title of the repo used in headers and metadata.
+* `docLog.userName`: Git User name for author metadata field
+* `docLog.minChangedLines`: The number of lines in a file that much be changed for it to appear as updated
+* `docLog.excludePaths`: Excluded these paths from the changelog
+* `docLog.repoUrl`: URL for public GitHub repository. Used for linking to GitHub to view changes
+* `docLog.docFolder`: Folder that contains files to be scanned for changes
+* `docLog.docUrl`: Public URL for repo
+* `docLog.outputFile`: File to write changelog to
+* `docLog.dateFormat`: Formatting for date in changelog, can be used to make more granular logs
+* `docLog.monthsAgo`: How many months back to generate the logs for
+* `docLog.msService`: ms.service metadata field
+* `docLog.msSubService`: ms.subservice metadata field
+* `docLog.genFeed`: Should an RSS feed be generated as well (docFolder/atom.xml)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+This is my first Typescript project, so the code needs a lot of work and optimization.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.1.0
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release.
