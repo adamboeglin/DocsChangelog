@@ -30,7 +30,7 @@ This extension contributes the following settings:
 * `docLog.monthsAgo`: How many months back to generate the logs for
 * `docLog.msService`: ms.service metadata field
 * `docLog.msSubService`: ms.subservice metadata field
-* `docLog.genFeed`: Should an RSS feed be generated as well (docFolder/atom.xml)
+* `docLog.genFeed`: Should an RSS feed be generated as well (docFolder/feed.atom)
 
 ## Known Issues
 

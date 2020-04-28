@@ -104,7 +104,7 @@
 					"type": "boolean",
 					"default": true,
 					"scope": "window",
-					"description": "Should an RSS feed be generated as well (docFolder/rss.xml)"
+					"description": "Should an RSS feed be generated as well (docFolder/feed.atom)"
 				}
 			}
 		}
