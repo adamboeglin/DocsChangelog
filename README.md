@@ -6,6 +6,8 @@ This VSCode extension is for users for the Microsoft Docs platform.  It simplifi
 
 To generate the changelog, open the command window (Ctrl + Shift + P) and enter "Docs: Generate Changelog".  This will automatically generate the changelog.md file in the docs path configured.
 
+![Changelog](https://github.com/adamboeglin/DocsChangelog/blob/master/resources/changelog.gif?raw=true)
+
 ## Requirements
 
 Requires Git to be installed and available in your default path.
