@@ -1,4 +1,4 @@
-# Docs Changelog
+# docs-changelog-generator
 
 This VSCode extension is for users for the Microsoft Docs platform.  It simplifies the creation of a changelog of new and updated articles based on Git history
 
@@ -33,6 +33,10 @@ This extension contributes the following settings:
 This is my first Typescript project, so the code needs a lot of work and optimization.
 
 ## Release Notes
+
+### 0.4.0
+
+Updated name and release
 
 ### 0.1.0
 
