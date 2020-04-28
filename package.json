@@ -2,7 +2,8 @@
 	"name": "docschangelog",
 	"displayName": "DocsChangelog",
 	"description": "A chagelog for Mardown files using git commits",
-	"version": "0.0.1",
+	"version": "0.1.1",
+	"publisher": "AdamBoeglin",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
