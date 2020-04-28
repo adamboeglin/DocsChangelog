@@ -2,7 +2,7 @@
 	"name": "docschangelog",
 	"displayName": "DocsChangelog",
 	"description": "A chagelog for Mardown files using git commits",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"publisher": "AdamBoeglin",
 	"repository": "https://github.com/adamboeglin/DocsChangelog",
 	"engines": {
