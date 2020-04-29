@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "docschangelog" extension will be documented in this file.
+## 0.4.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Updated name and release information.
 
-## [Unreleased]
+## 0.1.0
 
-- Initial release
+Initial release.
