@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.5.1
+
+Fixed duplicate items
+
 ## 0.5
 
 Fixed build and packaging configuration.

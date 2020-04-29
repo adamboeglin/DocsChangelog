@@ -106,7 +106,7 @@ function processCommits(results: any, type: string, workspacePath: string, month
 				continue;
 			}
 
-			if (!fileSearch(fileName, results[pubDate.format(dateFormat)].updated)) {
+			if (!fileSearch(fileName, results[pubDate.format(dateFormat)].updated) && !fileSearch(fileName, results[pubDate.format(dateFormat)].new)) {
 				// Only report on files that still exist
 				if (fs.existsSync(fileName)) {
 					if ((linesAdded - linesRemoved) > minChangedLines) {
@@ -312,7 +312,6 @@ New and updated articles in {{ repoTitle }}
 					results = processCommits(results, type, workspacePath, monthsAgo, dateFormat, 
 						minChangedLines, excludePaths, repoUrl, docFolder, docUrl);
 				})
-
 
 				let changeTemplate = Handlebars.compile(pageTemplateRaw);
 				fs.writeFileSync(workspacePath + '/' + outputFile, 
