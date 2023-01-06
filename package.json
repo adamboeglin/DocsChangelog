@@ -142,7 +142,7 @@
 		"feed": "^4.1.0",
 		"gray-matter": "^4.0.2",
 		"handlebars": "^4.7.6",
-		"handlebars-loader": "^1.7.1",
+		"handlebars-loader": "^1.7.3",
 		"moment": "^2.24.0"
 	}
 }
